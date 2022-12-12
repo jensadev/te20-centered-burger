@@ -6,12 +6,15 @@
 }
 
 .navbar {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    min-height: 4rem;
+    background-color: lavenderblush;
+    &__inner {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        min-height: 4rem;
 
+    }
     &__button {
         background-color: transparent;
 

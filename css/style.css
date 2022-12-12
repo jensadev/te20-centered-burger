@@ -32,7 +32,7 @@ which suggests default styling will be removed
 
 🟣 Selector updated to reduce specificity
 */
-:where(ul, ol):where([role=list]) {
+:where(ul, ol):where([role="list"]) {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -104,6 +104,7 @@ select {
   html:focus-within {
     scroll-behavior: auto;
   }
+
   *,
 *::before,
 *::after {
@@ -119,6 +120,9 @@ select {
 }
 
 .navbar {
+  background-color: lavenderblush;
+}
+.navbar__inner {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
