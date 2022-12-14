@@ -156,6 +156,10 @@ select {
   padding: 0;
 }
 
+main {
+  margin-top: 2rem;
+}
+
 .hero {
   display: grid;
   grid-template-areas: "stack";
